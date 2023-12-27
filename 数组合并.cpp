@@ -1,4 +1,5 @@
-﻿#include<iostream>
+//将两个数组合并后去重并排序
+#include<iostream>
 #include<vector>
 #include<algorithm>
 using namespace std;
