@@ -1,3 +1,5 @@
+//判断一个只有0和1组成的矩阵经几次变换后可变为自对称矩阵（不管旋转多少次后的矩阵仍和之前一样）
+//一次变换指从1变为0或从0变为1
 #include<iostream>
 #include<vector>
 #include<algorithm>
