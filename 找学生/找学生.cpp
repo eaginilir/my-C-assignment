@@ -1,4 +1,5 @@
-﻿#include<iostream>
+//先给学生按照成绩排名，再依据输入的学生的名字或部分名字找学生并输出学号
+#include<iostream>
 #include<algorithm>
 #include<cstring>
 using namespace std;
