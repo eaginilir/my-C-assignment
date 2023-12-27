@@ -1,9 +1,9 @@
 ﻿#include<iostream>
 #include<cstring>
 using namespace std;
-void oddfilter(int a[], int size);
-void oddfilter(double a[], int size);
-void oddfilter(char a[], int size);
+void oddfilter(int a[], int size);//将数组中的奇数排序并输出，若不满足则输出No Odd
+void oddfilter(double a[], int size);//先将浮点数四舍五入，在根据大小输出四舍五入后的奇数，若不满足则输出No Odd
+void oddfilter(char a[], int size);//将字符串中出现次数为奇数的字符按照ASCII码从小到大输出，若不满足则输出No Odd
 int sishewuru(double x);
 int main()
 {
