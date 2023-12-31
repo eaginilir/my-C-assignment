@@ -1,4 +1,5 @@
-﻿#include<iostream>
+//位数为偶数的回文数必定不是质数（11除外）
+#include<iostream>
 #include<cmath>
 #include<algorithm>
 using namespace std;
