@@ -1,4 +1,11 @@
-﻿#include<iostream>
+/*实现一个坐标点结构体，在这个结构体中含有直线结构体和矩形结构体，
+直线结构体包含这条直线上的两个不同点的坐标，矩形结构体（明确这个矩
+形的各个边都与坐标轴平行）包括这个矩形的左下角点和右上角点的坐标，
+现在要求输入两条直线（不考虑直线重叠）和两个矩形，判断这两条直线是
+否垂直，垂直输出“true”，不垂直输出“false”，并判断两个矩形是否重叠，
+若两个矩形有重叠部分，求出重叠部分的周长，若两个矩形没有重叠部分，
+输出“false”。（只在角或边接触的矩形不构成重叠）*/
+#include<iostream>
 using namespace std;
 void sort(int arr[], int x);
 void vertical(struct line x, struct line y);
