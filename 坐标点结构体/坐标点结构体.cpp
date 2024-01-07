@@ -15,13 +15,13 @@ struct line {
 	int y1;
 	int x2;
 	int y2;
-}line[2];
+}line[2];//定义直线结构体
 struct matrix {
 	int x1;
 	int y1;
 	int x2;
 	int y2;
-}matrix[2];
+}matrix[2];//定义矩形结构体
 int main()
 {
 	for (int i = 0; i < 2; i++)
@@ -47,17 +47,17 @@ void vertical(struct line x, struct line y)
 	{
 		cout << "True" << endl;
 		return;
-	}
+	}//先考虑直线中有与坐标轴平行的情况
 	if ((((x.y1 - x.y2) * (y.y1 - y.y2)) / ((x.x1 - x.x2) * (y.x1 - y.x2)) == -1) && ((x.x1 - x.x2) * (y.x1 - y.x2) != 0))
 	{
 		cout << "True" << endl;
 		return;
-	}
+	}//再考虑直线不与坐标轴平行的情况
 	else
 	{
 		cout << "False" << endl;
 		return;
-	}
+	}//其他则不平行
 }
 void rectangle(struct matrix x, struct matrix y)
 {
@@ -80,11 +80,12 @@ void rectangle(struct matrix x, struct matrix y)
 	{
 		cout << "False" << endl;
 		return;
-	}
+	}//上面四种是不符合矩形重叠的条件
 	int arr1[4] = { x.x1,x.x2,y.x1,y.x2 }, arr2[4] = { x.y1,x.y2,y.y1,y.y2 };
 	sort(arr1, 4);
 	sort(arr2, 4);
 	cout << 2 * (arr1[2] - arr1[1]) + 2 * (arr2[2] - arr2[1]) << endl;
+	//若矩形重叠，重叠矩形必由横竖两种直线中中间两条直线构成，周长则为这些直线之间距离组成
 	return;
 }
 void sort(int arr[], int x)
