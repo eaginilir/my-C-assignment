@@ -1,0 +1,604 @@
+﻿  类实现矩阵运算.cpp
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(162,16): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(162,9): error C2433: “ostream”: 不允许在数据声明中使用“friend”
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(162,16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(163,2): error C2334: “{”的前面有意外标记；跳过明显的函数体
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(147,5): error C2065: “cout”: 未声明的标识符
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(149,4): error C2065: “cout”: 未声明的标识符
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\Matrix.h(149,12): error C2065: “endl”: 未声明的标识符
+  (编译源文件“类实现矩阵运算.cpp”)
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2): error C2679: 二元“<<”: 没有找到接受“Matrix”类型的右操作数的运算符(或没有可接受的转换)
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“Matrix”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”: 无法将参数 2 从“Matrix”转换为“const void *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”: 无法将参数 2 从“Matrix”转换为“long double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”: 无法将参数 2 从“Matrix”转换为“double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”: 无法将参数 2 从“Matrix”转换为“float”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”: 无法将参数 2 从“Matrix”转换为“unsigned __int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”: 无法将参数 2 从“Matrix”转换为“__int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”: 无法将参数 2 从“Matrix”转换为“unsigned long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”: 无法将参数 2 从“Matrix”转换为“long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”: 无法将参数 2 从“Matrix”转换为“unsigned int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”: 无法将参数 2 从“Matrix”转换为“int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”: 无法将参数 2 从“Matrix”转换为“unsigned short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”: 无法将参数 2 从“Matrix”转换为“short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”: 无法将参数 2 从“Matrix”转换为“bool”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“Matrix”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“const std::error_code &”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		原因如下: 无法从“Matrix”转换为“const std::error_code”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+  		C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		“<template-parameter>”: 无法创建指向引用的指针
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“unsigned char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“const unsigned char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“signed char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“const signed char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  		可能是“Matrix”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  		或    “char”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“Matrix”推导出“_Elem”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“Matrix”推导出“const _Elem *”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“Matrix”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“Matrix”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“Matrix”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+  C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(83,2):
+  尝试匹配参数列表“(std::ostream, Matrix)”时
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2): error C2679: 二元“<<”: 没有找到接受“Matrix”类型的右操作数的运算符(或没有可接受的转换)
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“Matrix”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”: 无法将参数 2 从“Matrix”转换为“const void *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”: 无法将参数 2 从“Matrix”转换为“long double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”: 无法将参数 2 从“Matrix”转换为“double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”: 无法将参数 2 从“Matrix”转换为“float”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”: 无法将参数 2 从“Matrix”转换为“unsigned __int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”: 无法将参数 2 从“Matrix”转换为“__int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”: 无法将参数 2 从“Matrix”转换为“unsigned long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”: 无法将参数 2 从“Matrix”转换为“long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”: 无法将参数 2 从“Matrix”转换为“unsigned int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”: 无法将参数 2 从“Matrix”转换为“int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”: 无法将参数 2 从“Matrix”转换为“unsigned short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”: 无法将参数 2 从“Matrix”转换为“short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”: 无法将参数 2 从“Matrix”转换为“bool”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“Matrix”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“const std::error_code &”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		原因如下: 无法从“Matrix”转换为“const std::error_code”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+  		C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		“<template-parameter>”: 无法创建指向引用的指针
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“unsigned char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“const unsigned char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“signed char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“const signed char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  		可能是“Matrix”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  		或    “char”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“Matrix”推导出“_Elem”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“Matrix”推导出“const _Elem *”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“Matrix”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“Matrix”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“Matrix”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+  C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(84,2):
+  尝试匹配参数列表“(std::ostream, Matrix)”时
+  
+C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2): error C2679: 二元“<<”: 没有找到接受“Matrix”类型的右操作数的运算符(或没有可接受的转换)
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“Matrix”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”: 无法将参数 2 从“Matrix”转换为“const void *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”: 无法将参数 2 从“Matrix”转换为“long double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”: 无法将参数 2 从“Matrix”转换为“double”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”: 无法将参数 2 从“Matrix”转换为“float”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”: 无法将参数 2 从“Matrix”转换为“unsigned __int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”: 无法将参数 2 从“Matrix”转换为“__int64”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”: 无法将参数 2 从“Matrix”转换为“unsigned long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”: 无法将参数 2 从“Matrix”转换为“long”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”: 无法将参数 2 从“Matrix”转换为“unsigned int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”: 无法将参数 2 从“Matrix”转换为“int”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”: 无法将参数 2 从“Matrix”转换为“unsigned short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”: 无法将参数 2 从“Matrix”转换为“short”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”: 无法将参数 2 从“Matrix”转换为“bool”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“Matrix”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”: 无法将参数 2 从“Matrix”转换为“std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“const std::error_code &”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		原因如下: 无法从“Matrix”转换为“const std::error_code”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+  		C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		“<template-parameter>”: 无法创建指向引用的指针
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“unsigned char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“const unsigned char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“signed char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“const signed char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  		可能是“Matrix”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  		或    “char”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“Matrix”推导出“_Elem”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“Matrix”推导出“const _Elem *”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“char”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  	“初始化”: 无法从“Matrix”转换为“const char *”
+  		C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,13):
+  		没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“Matrix”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“Matrix”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+  C:\编译器\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+  	C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  	“std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“Matrix”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+  C:\Users\22302\Desktop\程序设计作业\类实现矩阵运算\类实现矩阵运算.cpp(85,2):
+  尝试匹配参数列表“(std::ostream, Matrix)”时
+  
